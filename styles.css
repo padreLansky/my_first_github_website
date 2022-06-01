@@ -1,3 +1,7 @@
+html {
+    font-size: min(1vw, 1vh);
+}
+
 body {
     background-image: linear-gradient(to bottom, Teal 50%, white);
     background-size: cover;
@@ -10,11 +14,9 @@ body {
 }
 
 h1 {
-    text-shadow:
-        /*0px 0px min(1vw, 1vh) Cyan,*/
-        0px 0px min(3vw, 3vh) black, 0px 0px min(6vw, 6vh) black;
-    /* text-align: center; */
+    text-shadow: 0px 0px 1rem Cyan, 0px 0px 3rem black, 0px 0px 6rem black;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: min(15vw, 15vh);
+    font-size: 15rem;
     color: white;
 }
