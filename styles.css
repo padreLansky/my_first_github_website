@@ -10,7 +10,9 @@ body {
 }
 
 h1 {
-    text-shadow: 0px 0px 20px red, 0px 0px 30px black;
+    text-shadow:
+        /*0px 0px min(1vw, 1vh) Cyan,*/
+        0px 0px min(3vw, 3vh) black, 0px 0px min(6vw, 6vh) black;
     /* text-align: center; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: min(15vw, 15vh);
